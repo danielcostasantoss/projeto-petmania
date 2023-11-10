@@ -42,7 +42,7 @@ input{
     padding: 7px;
 
     max-width: auto;
-    min-width: 500px;
+    width: auto;
 }
 
 .iBranco {
@@ -55,6 +55,7 @@ input{
     float: left;
     margin: auto;
     width: auto;
+    display: inline-flexbox;
 }
 
 #iOutros {
