@@ -107,7 +107,7 @@ input[type=submit]#iEnviar{
 #lancamento{
     background-color: var(--cor0);
     border: none;
-    color: grey;
+    color: rgb(175, 174, 174);
     font-size: 20px;
     font-family: 'Edu TAS Beginner', cursive;
 
