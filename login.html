@@ -5,27 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/login.css">
 </head>
 
 <body>
-    <form action="login.html">
-        <h1>Login</h1>
-        <br><br>
-        <label for="iUsuario">CPF ou E-mail:</label>
-        <br><br>
-        <input type="textnone" name="usuario" id="iUsuario">
-        <br><br><br>
-        <label for="iSenha">Senha:</label>
-        <br><br>
-        <input type="password" name="senha" id="iSenha"><br>
-        <br><br>
-        <input type="checkbox"> Memorizar sua senha. 
-        <br><br>
-        <input type="submit" id="enviar">
-        <br><br>
-        <a href="" id="esqueceusuasenha">Esqueceu sua senha?</a>
-    </form>
+    <div id="iLogin">
+        <form action="login.html">
+            <br>
+            <h1 class="text-center">login</h1>
+            <br>
+            <label for="iUsuario" class="text-center">CPF OU E-MAIL</label>
+            <br><br>
+            <input type="textnone" name="usuario" id="iUsuario" required>
+            <br><br><br>
+            <label for="iSenha" class="text-center">SENHA:</label>
+            <br><br>
+            <input type="password" name="senha" id="iSenha" required>
+            <br><br><br>
+            <input class="iMemorizar" type="checkbox"><label for="iMemorizar" class="iMemorizar"> MEMORIZAR
+                MINHA
+                SENHA</label>
+            <br><br>
+            <input type="submit" id="iEnviar" class="text-center" value="acessar">
+            <br><br>
+            <a href="" id="esqueceusuasenha">esqueceu sua senha?</a>
+        </form>
+    </div>
+    <div id="lancamento">
+        <p>@ADQ2023</p>
+    </div>
 </body>
 
 </html>
