@@ -54,6 +54,7 @@ h1{
     font-weight: bold;
     font-size: 30px;
     margin: auto;
+    text-shadow: 1px 1px 1px black;
 
     width: 100px;
 }
@@ -77,6 +78,12 @@ input{
     font-variant: small-caps;
 }
 
+#iEnviar:hover{
+    background-color: var(--cor0);
+    color: white;
+    text-shadow: 2px 2px 2px black;
+}
+
 .iMemorizar{
     padding: 5px;
     width: 15px;
@@ -96,6 +103,8 @@ a:hover{
     border-radius: 10px;
     color: var(--cor0);
     font-size: 15px;
+
+    text-shadow: 1px 0px 0px  black;
 }
 
 input[type=submit]#iEnviar{
