@@ -1,0 +1,45 @@
+:root {
+    --cor0: #5997ff;
+    --cor1: #2b303a;
+    --cor2: white;
+    --cor3: #7c7c7c9d;
+    --cor4: #D64933;
+    --cor5: #add8e6;
+}
+
+body{
+    background-color: var(--cor3);
+    width: auto;
+}
+
+
+#fundo{
+    background-color: var(--cor2);
+    margin: auto;
+    max-width: 1800px;
+    min-width: 500px;
+}
+
+#header{
+    background-color: var(--cor0);
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    margin: 0px;
+}
+
+#botaodeacesso{
+    text-align: right;
+
+}
+
+#nav{
+    background-color: var(--cor0);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}

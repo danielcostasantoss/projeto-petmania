@@ -114,7 +114,7 @@ input[type=submit]#iEnviar{
 }
 
 #lancamento{
-    background-color: var(--cor0);
+    background-color: #5997ff;
     border: none;
     color: rgb(175, 174, 174);
     font-size: 20px;
@@ -123,8 +123,8 @@ input[type=submit]#iEnviar{
     position: fixed;
 
     top: 80%;
-    left: 50%;
+    left: 49%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -49%);
 
 }
