@@ -1,3 +1,4 @@
+
 :root {
     --cor0: #5997ff;
     --cor1: #2b303a;
@@ -6,58 +7,90 @@
     --cor4: #D64933;
     --cor5: #add8e6;
 }
-
-body{
-    background-color: var(--cor3);
+ 
+body {
+    background-color: var(--cor2);
     width: auto;
 }
-
-
-#fundo{
-    background-color: var(--cor2);
+ 
+#fundo {
+    background-color: var(--cor0);
     margin: auto;
     max-width: auto;
-    min-width: 500px;
+    min-width: 480px;
 }
-
-#header{
-    display: block;
+ 
+#header {
     background-color: var(--cor0);
     margin: auto;
-    padding: 20px;
+    position: relative;
 }
-
+ 
+header{
+    height: 90px;
+}
+ 
 #divpesquisa{
-    text-align: center;
+    display: inline-block;
 }
-
-#divpesquisa > input{
-    border: var(--cor2);
+ 
+#pesquisa > input{
+    border: 1px solid white;
     border-radius: 15px;
+    max-width: 600px;
+    min-width: 280px;
     padding: 0.5em;
-    width: 300px;
 }
-
-#botaodeacesso{
-    text-align: right;
+ 
+#img{
+    position: relative;
 }
-
-
+ 
+#pesquisa{
+    position: relative;
+ 
+    left: 250px;
+    top: 5px;
+}
+ 
+#navegar{
+    display: inline-block;
+    position: relative;
+}
+ 
+#botaodeacesso {
+    display: inline-block;
+    position: relative;
+    left: 860px;
+}
+   
 #nav{
     background-color: var(--cor0);
+    display: inline;
+    position: relative;
+    width: auto;
 }
-
-nav{
+ 
+nav {
     font-variant: small-caps;
     font-size: 18px;
 }
-
-a{
+ 
+a {
     color: white;
     padding: 7px;
 }
-
-a:hover{
+ 
+a:hover {
     font-weight: bold;
     text-decoration: none;
 }
+ 
+.cardProd{
+    display: inline-block;
+    height: auto;  
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+ 
