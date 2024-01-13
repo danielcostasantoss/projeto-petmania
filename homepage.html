@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PetMania</title>
     <link rel="stylesheet" href="CSS/bootstrap-grid.css">
     <link rel="stylesheet" href="CSS/bootstrap-grid.css.map">
     <link rel="stylesheet" href="CSS/bootstrap-grid.min.css">
@@ -19,135 +19,43 @@
     <link rel="stylesheet" href="CSS/bootstrap.min.css.map">
     <link rel="stylesheet" href="CSS/homepage.css">
 </head>
-<style>
-    .corbotao {
-        background-color: #5997ff;
-        border: none;
-    }
-
-    .corbotao:hover {
-        background-color: #5997ff;
-        border: none;
-        color: blue;
-        text-decoration: none;
-    }
-</style>
 
 <body>
-    <div id="fundo">
-        <div id="header">
-            <header>
-                <div id="divpesquisa">
-                    <div id="img">
-                        <img src="Imagens/LogoPetMania.png" alt="Logo PetMania" width="300px">
-                    </div>
-                    <div id="pesquisa">
-                        <input type="text" id="txtPesquisa" placeholder="Do que você precisa?">
-                        <img src="IMAGENS/lupa.png" alt="ícone de pesquisa">
-                    </div>
-                </div>
-            </header>
-        </div>
-        <div id="nav">
-            <nav>
-                <div id="navegar">
-                    <table class="nav tableNav">
-                        <tr>
-                            <th>Filtros</th>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link " href="cachorros.html">cachorros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">gatos</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">pássaros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">peixes</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">outros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">outros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">outros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">outros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">outros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">outros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">outros</a></td>
-                        </tr>
-                        <tr>
-                            <td><a class="nav-link" href="">outros</a></td>
-                        </tr>
-                    </table>
-                </div>
-                <div id="botaodeacesso">
-                    <button type="button" class="btn btn-primary corbotao"><a href="login.html">Login</a></button>
-                    <button type="button" class="btn btn-primary corbotao"><a href="cadastro.html">Cadastro</a></button>
-                    <button type="button" class="btn btn-primary corbotao"><a href="cadastro.html">Carrinho</a></button>
-                </div>
-            </nav>
-        </div>
-        <div id="produtos">
-            <section>
-                <div>
-                    <div class="card cardProd" style="width: 23rem;">
-                        <img class="card-img-top" src="IMAGENS/Produtos/Casinha-azul.jpg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
-                                preencher o
-                                conteúdo do card.</p>
-                        </div>
-                    </div>
-                    <div class="card cardProd" style="width: 23rem;">
-                        <img class="card-img-top" src="IMAGENS/Produtos/Casinha-azul.jpg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
-                                preencher o
-                                conteúdo do card.</p>
-                        </div>
-                    </div>
-                    <div class="card cardProd" style="width: 23rem;">
-                        <img class="card-img-top" src="IMAGENS/Produtos/Casinha-azul.jpg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
-                                preencher o
-                                conteúdo do card.</p>
-                        </div>
-                    </div>
-                    <div class="card cardProd" style="width: 23rem;">
-                        <img class="card-img-top" src="IMAGENS/Produtos/Casinha-azul.jpg" alt="Imagem de capa do card">
-                        <div class="card-body">
-                            <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
-                                preencher o
-                                conteúdo do card.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div id="bannerPromo">
-            <article></article>
-        </div>
-        <div id="suporte">
-            <aside></aside>
-        </div>
-    </div>
-</body>
+    <header>
+        <img src="ImgProdutos/LogoPetMania.png" alt="Logo PetMania" width="250px">
+        <input type="text">
+    </header>
+    <span id="filtros">Filtros</span>
+    <nav class="nav">
+        <a class="nav-link active" href="#">Cachorros</a>
+        <a class="nav-link" href="#">Gatos</a>
+        <a class="nav-link" href="#">Pássaros</a>
+        <a class="nav-link" href="#">Peixes</a>
+        <a class="nav-link" href="#">Outros</a>
+    </nav>
+    <section>
+        <div class="card" style="width: 15rem;">
+            <img class="card-img-top" src="ImgProdutos/aquario.png" alt="Aquario">
+            <div class="card-body">
+              <h5 class="card-title">Aquario</h5>
+              <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer preencher o conteúdo do card.</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">Cras justo odio</li>
+              <li class="list-group-item">Dapibus ac facilisis in</li>
+              <li class="list-group-item">Vestibulum at eros</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+          </div>
+    </section>
+    <aside>
 
-</html>
+    </aside>
+    <footer>
+
+    </footer>
 </body>
 
 </html>
