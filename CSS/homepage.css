@@ -36,4 +36,9 @@ nav > a{
 
 section{
     background-color: white;
+    display: flex
+}
+
+.espaco-card{
+    margin: 10px 15px 10px 15px;
 }
