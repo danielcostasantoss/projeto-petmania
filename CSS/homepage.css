@@ -26,6 +26,7 @@ header{
 
 nav{
     background-color: #5A97FE;
+    display: inline-flex;
 }
 
 nav > a{
