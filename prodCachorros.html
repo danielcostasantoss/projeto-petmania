@@ -22,21 +22,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? family= M+PLUS+Code+Latin & display=swap" rel="stylesheet">
+
+    <script async src="JS/carrinho.js"></script>
 </head>
 
 <body>
     <header>
-        <img src="ImgProdutos/icones/LogoPetMania.png" alt="Logo PetMania" width="250px">
-        <input type="text">
-        <div class="login-cadastro">
-            <ul class="nav justify-content-center">
-                <li class="nav-item">
-                    <a class="nav-link link-lc" href="#">Login</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link-lc" href="#">Cadastro</a>
-                </li>
-            </ul>
+        <div id="div-header">
+            <div><img src="ImgProdutos/icones/LogoPetMania.png" alt="Logo PetMania" width="250px"></div>
+            <div id="div-input">
+                <input type="text" placeholder="pesquisar...">
+            </div>
+            <div class="login-cadastro">
+                <ul class="nav justify-content-end">
+                    <li class="nav-item">
+                        <a class="nav-link link-lc" href="#">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-lc" href="#">Cadastro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link link-lc" href="#">Carrinho</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <nav class="nav">
@@ -74,7 +83,7 @@
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
@@ -110,7 +119,7 @@
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
@@ -128,7 +137,7 @@
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
@@ -146,7 +155,7 @@
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
@@ -164,7 +173,7 @@
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
@@ -182,12 +191,34 @@
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
     </section>
     <aside>
-
+        <table class="carmarket">
+            <tr>
+                <th colspan="6">Carrinho de compras</th>
+            </tr>
+            <tr>
+                <td colspan="2">Produto</td>
+                <td>Preço</td>
+                <td>Quantidade</td>
+                <td>Total</td>
+                <td></td>
+            </tr>
+            <tr class="cardProds">
+                <td class="ult3"><img src="/Projeto PetMania/Imagens/ImgProdutos/aquario.png" class="ftProd">
+                </td>
+                <td class="nmProd">Aquário Médio</td>
+                <td class="rsProd">R$ 134,50</td>
+                <td class="qtProd">
+                    <input type="number" class="qntd" min="0" value="1">
+                </td>
+                <td class="ttProd">R$ 134,50</td>
+                <td class="ult4"><button class="exProd">X</button></td>
+            </tr>
+        </table>
     </aside>
     <footer>
         <div class="footer">

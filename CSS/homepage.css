@@ -4,11 +4,38 @@
 }
 
 body {
+    min-height: 100vh;
     background-color: cadetblue;
 }
 
 header {
     background-color: #5A97FE;
+}
+
+#div-header{
+    display: flex;
+}
+
+input{
+    border: 2px 1px inset rgba(53, 117, 177, 0.623);
+    border-collapse: collapse;
+    border-radius: 20px;
+    
+    display: inline;
+    
+    font-family: 'M PLUS Code Latin', monospace;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+    
+    margin-top: 35px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 7px;
+
+    text-align: center;
+    
+    width: 1000px;
 }
 
 #filtros {
@@ -41,6 +68,14 @@ nav>a {
 
 .nav {
     text-transform: uppercase;
+}
+
+.justify-content-end{
+    margin-right: 15px;
+    position: fixed;
+
+    right: 0px;
+    top: 33px;
 }
 
 section {
@@ -80,8 +115,13 @@ section {
     color: #04328C;
 }
 
+aside{
+    display: none;
+}
+
 footer{
     background-color: #5A97FE;
+    height: 120px;
 }
 
 p{
@@ -107,5 +147,5 @@ p{
     text-transform: uppercase;
     font-weight: bold;
 
-    padding: 60px 25px 60px 0px;
+    margin: 40px  40px ;
 }
