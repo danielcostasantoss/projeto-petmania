@@ -144,6 +144,7 @@ hr {
     width: 100%;
     word-wrap: break-word;
     border-collapse: collapse;
+    background-color: #9EC2FF;
 
     th {
         background-color: #2a62bd;
@@ -157,11 +158,12 @@ hr {
     td {
         text-align: center;
         padding: 13px;
-        background-color: #ffffff52;
+        background-color: #ffffff00;
         font-size: 16px;
         font-weight: 600;
         
     }
+      
 }
 
 .ult3,
