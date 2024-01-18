@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetMania</title>
+    <link rel="icon" href="ImgProdutos/icones/petmania.ico">
+
     <link rel="stylesheet" href="CSS/bootstrap-grid.css">
     <link rel="stylesheet" href="CSS/bootstrap-grid.css.map">
     <link rel="stylesheet" href="CSS/bootstrap-grid.min.css">
@@ -17,11 +19,15 @@
     <link rel="stylesheet" href="CSS/bootstrap.css.map">
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
     <link rel="stylesheet" href="CSS/bootstrap.min.css.map">
-    <link rel="stylesheet" href="CSS/homepage.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/homepage.css"> 
+    <link rel="stylesheet" href="CSS/petmania.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https: //fonts.googleapis.com/css2? family= M+PLUS+Code+Latin & display=swap" rel="stylesheet">
+
+    <script async src="JS/carrinho.js"></script>
 </head>
 
 <body>
@@ -29,7 +35,7 @@
         <img src="ImgProdutos/icones/LogoPetMania.png" alt="Logo PetMania" width="250px">
         <input type="text">
         <div class="login-cadastro">
-            <ul class="nav justify-content-center">
+            <ul class="nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link link-lc" href="#">Login</a>
                 </li>
@@ -42,152 +48,167 @@
     <nav class="nav">
         <ul class="nav nav-tabs">
             <li class="nav-item">
-                <a class="nav-link active" href="#">cachorros</a>
+                <a class="nav-link" href="homepage.html">home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">gatos</a>
+                <a class="nav-link" href="prodCachorros.html">cachorros</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">pássaros</a>
+                <a class="nav-link" href="prodGatos.html">gatos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">peixes</a>
+                <a class="nav-link active" href="prodPassaros.html">pássaros</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">outros</a>
+                <a class="nav-link" href="prodPeixes.html">peixes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="prodOutros.html">outros</a>
             </li>
         </ul>
     </nav>
     <section>
         <div class="card espaco-card" style="width: 16rem;">
-            <img class="card-img-top" src="ImgProdutos/racao-premier-medicamentosa.png"
+            <img class="card-img-top imagem" src="ImgProdutos/racao-premier-medicamentosa.png"
                 alt="Ração Premier Nutrição Clínica Cardio para Cães de Porte Médio e Grande 10,1 kg">
             <div class="card-body">
-                <h5 class="card-title">Ração Premier Nutrição Clínica Cardio para Cães 10,1 kg</h5>
+                <h5 class="card-title nome">Ração Premier Nutrição Clínica Cardio para Cães 10,1 kg</h5>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>Idade:</b>
                     Adultos</li>
                 <li class="list-group-item"><b>Porte de raça:</b>
                     Médio e Grande</li>
-                <li class="list-group-item"><b>R$354,99</b>
+                <li class="list-group-item valor"><b>R$354,99</b>
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
-            <img class="card-img-top" src="ImgProdutos/Brinquedo- Chalesco-Macaco.png"
+            <img class="card-img-top imagem" src="ImgProdutos/Brinquedo- Chalesco-Macaco.png"
                 alt="Brinquedo Chalesco Macaco Pelúcia Marrom para Cães" width="150px">
             <div class="card-body">
-                <h5 class="card-title">Brinquedo Chalesco Macaco Pelúcia Marrom para Cães</h5>
+                <h5 class="card-title nome">Brinquedo Chalesco Macaco Pelúcia Marrom para Cães</h5>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>Material:</b>
                     Pelúcia e enchimento</li>
                 <li class="list-group-item"><b>Porte de raça:</b>
                     Pequeno, Médio e Grande</li>
-                <li class="list-group-item"><b>R$34,99</b>
+                <li class="list-group-item valor"><b>R$34,99</b>
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
-            <img class="card-img-top" src="ImgProdutos/Peitoral-Zee.Dog-Ella.png"
+            <img class="card-img-top imagem" src="ImgProdutos/Peitoral-Zee.Dog-Ella.png"
                 alt="Peitoral Zee.Dog Ella Air Plus para Cães" width="150px">
             <div class="card-body">
-                <h5 class="card-title">Peitoral Zee.Dog Ella Air Plus para Cães</h5>
+                <h5 class="card-title nome">Peitoral Zee.Dog Ella Air Plus para Cães</h5>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>Material:</b>
                     Poliéster</li>
                 <li class="list-group-item"><b>Porte de raça:</b>
                     Médio, Gigante, Grande, Pequeno e Mini</li>
-                <li class="list-group-item"><b>R$999,99</b>
+                <li class="list-group-item valor"><b>R$ 129,00</b>
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
-            <img class="card-img-top" src="ImgProdutos/Almofada-Lisa-Urban-Puppy.png"
+            <img class="card-img-top imagem" src="ImgProdutos/Almofada-Lisa-Urban-Puppy.png"
                 alt="Almofada Lisa Gomo Sarja Urban Puppy para Cães e Gatos Cinza">
             <div class="card-body">
-                <h5 class="card-title">Almofada Lisa Gomo Sarja Urban Puppy para Cães e Gatos Cinza</h5>
+                <h5 class="card-title nome">Almofada Lisa Gomo Sarja Urban Puppy para Cães e Gatos Cinza</h5>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>Material:</b>
                     Sarja 100% algodão</li>
                 <li class="list-group-item"><b>Porte de raça:</b>
                     Médio e Pequeno</li>
-                <li class="list-group-item"><b>R$ 129,99</b>
+                <li class="list-group-item valor"><b>R$ 129,99</b>
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
-            <img class="card-img-top" src="ImgProdutos/Dogvilla-Ferplast Casa-Para-Caes.png"
+            <img class="card-img-top imagem" src="ImgProdutos/Dogvilla-Ferplast Casa-Para-Caes.png"
                 alt="Dogvilla Ferplast Casa Para Cães">
             <div class="card-body">
-                <h5 class="card-title">Dogvilla Ferplast Casa Para Cães</h5>
+                <h5 class="card-title nome">Dogvilla Ferplast Casa Para Cães</h5>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>Material:</b>
                     Plástico</li>
                 <li class="list-group-item"><b>Porte de raça:</b>
                     Médio, Grande e Pequeno</li>
-                <li class="list-group-item"><b>R$ 1.499,99</b>
+                <li class="list-group-item valor"><b>R$ 1.499,99</b>
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
-            <img class="card-img-top" src="ImgProdutos/Probiótico-Pet Avert.png"
+            <img class="card-img-top imagem" src="ImgProdutos/Probiótico-Pet Avert.png"
                 alt="Probiótico Pet Avert para Cães e Gatos 14g">
             <div class="card-body">
-                <h5 class="card-title">Probiótico Pet Avert para Cães e Gatos 14g</h5>
+                <h5 class="card-title nome">Probiótico Pet Avert para Cães e Gatos 14g</h5>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>Tipo:</b>
                     Suplemento</li>
                 <li class="list-group-item"><b>Porte de raça:</b>
                     Grande, Médio e Pequeno</li>
-                <li class="list-group-item"><b>R$39,99</b>
+                <li class="list-group-item valor"><b>R$39,99</b>
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
         <div class="card espaco-card" style="width: 16rem;">
-            <img class="card-img-top" src="ImgProdutos/Camiseta-Zooz-Pets-Snoopy-Duo-Color.png"
+            <img class="card-img-top imagem" src="ImgProdutos/Camiseta-Zooz-Pets-Snoopy-Duo-Color.png"
                 alt="Camiseta Zooz Pets Snoopy Duo Color para Cães">
             <div class="card-body">
-                <h5 class="card-title">Camiseta Zooz Pets Snoopy Duo Color para Cães</h5>
+                <h5 class="card-title nome">Camiseta Zooz Pets Snoopy Duo Color para Cães</h5>
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item"><b>Material:</b>
                     Poliéster e Viscose</li>
                 <li class="list-group-item"><b>Porte de raça:</b>
                     Grande, Médio, Pequeno e Mini</li>
-                <li class="list-group-item"><b>R$119,99</b>
+                <li class="list-group-item valor"><b>R$119,99</b>
                 </li>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+                <a href="#" class="btn btn-primary btnAdc">Adicionar ao carrinho</a>
             </div>
         </div>
     </section>
     <aside>
-
+        <table class="carmarket">
+            <tr>
+                <th colspan="6">Carrinho de compras</th>
+            </tr>
+            <tr>
+                <td colspan="2">Produto</td>
+                <td>Preço</td>
+                <td>Quantidade</td>
+                <td>Total</td>
+                <td>Excluir</td>
+            </tr>
+            
+        </table>
     </aside>
     <footer>
         <div class="footer">

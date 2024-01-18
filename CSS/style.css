@@ -16,7 +16,6 @@ body {
 
 header {
     width: 100%;
-    text-align: center;
     justify-content: space-between;
     padding: 5px;
     z-index: 1000;
